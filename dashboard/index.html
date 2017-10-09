@@ -33,6 +33,7 @@
 							<a href="#" class="side-link" id="setting"><i class="material-icons">settings</i> Settings</a>
 						</li>
 					</ul>
+
 				</div>
 				<div class="col-xl-10" id="content">
 					<div id="dashboard">
@@ -73,11 +74,37 @@
 					<div id="important-devices">
 						<div class="container">
 							<div class="device-holder">
-								<ul class="list-group">
+								<ul class="list-group" id="device-list">
 									<li class="list-group-item">AC - Brand 1</li>
 									<li class="list-group-item">AC - Brand 2</li>
 									<li class="list-group-item">Light - Brand A</li>
 								</ul>
+								<div class="text-center">
+									<a href="#openModal" class="btn btn-primary">Add Device</a>
+								</div>
+							</div>
+							<div id="openModal" class="modalDialog">
+							    <div>	
+							    	<a href="#close" title="Close" class="close"><i class="material-icons">close</i></a>
+							        <h2>Add Device</h2>
+
+									<hr>
+
+									<form>
+										<div class="form-group">
+											<label for="dev-name">Device Name</label>
+											<input type="text" id="dev-name" class="form-control" />
+							        	</div>
+							        	<div class="form-group">
+											<label for="brand">Brand</label>
+											<input type="text" id="brand" class="form-control" />
+							        	</div>
+							        	<div class="btn-holder">
+							        		<a href="#close" class="btn btn-secondary">Cancel</a>
+							        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
+							        	</div>
+							        </form>
+							    </div>
 							</div>
 						</div>
 					</div>
@@ -91,7 +118,11 @@
 					</div>
 
 					<div id="settings">
-						
+						<div class="container">
+							<div class="prof-settings">
+								<h3>Profile Settings</h3>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
