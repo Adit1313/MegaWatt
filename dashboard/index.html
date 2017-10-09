@@ -44,7 +44,10 @@
 										<div class="card saving-card">
 											<div class="card-body">
 												<h4 class="card-title">Money Saved</h4>
-												<p class="card-text">Money saved per day</p>
+												<p class="card-text">Money saved per day
+													<li>Consumption - ₹300</li>
+													<li>Saving - ₹243</li>
+												</p>
 											</div>
 										</div>
 									</div>
@@ -52,7 +55,10 @@
 										<div class="card power-card">
 											<div class="card-body">
 												<h4 class="card-title">Power Saved</h4>
-												<p class="card-text">Power saved per day</p>
+												<p class="card-text">Power saved per day
+													<li>Usage - 453kWh</li>
+													<li>Saved - 308.04kWh</li>
+												</p>
 											</div>
 										</div>
 									</div>
@@ -62,7 +68,9 @@
 
 					</div>
 					<div id="important-devices">
-						:)
+						<ul class="list-group">
+							<li></li>
+						</ul>
 					</div>
 					<div id="julia-chatbot">
 						<iframe width="1100" height="600" src="https://console.api.ai/api-client/demo/embedded/c5fbd7df-41ac-4507-8c0f-0e80191b8e47"></iframe>
@@ -87,7 +95,7 @@
                 	backgroundBorderWidth: 15,
                 	percent: 80,
                 	percentageY: 90,
-                	text: 'Savings'
+                	text: 'Savings (₹)'
 				});
 
 				$('.power-circle').circliful({
@@ -97,7 +105,7 @@
                 	backgroundBorderWidth: 15,
                 	percent: 68,
                 	percentageY: 90,
-                	text: 'Power'
+                	text: 'Power (kWh)'
 				});
 			});
 		</script>
