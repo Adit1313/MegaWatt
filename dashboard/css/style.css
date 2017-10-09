@@ -1,5 +1,5 @@
 #sidenav {
-	background-color: #3A7BDF;
+	background-image: linear-gradient(to bottom, #3A7BDF 0%, #00D4FF 100%);
 	height: 100vh;
 }
 
