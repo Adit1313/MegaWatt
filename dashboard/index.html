@@ -150,25 +150,102 @@
 										    <tr>
 										        <td>First Name</td>
 										        <td>John</td>
-										        <td><a href="">Edit</a></td>
+										        <td><a href="#editFNModal" id="edit-fn">Edit</a></td>
 										    </tr>
 										    <tr>
 										        <td>Last Name</td>
 										        <td>Doe</td>
-										        <td><a href="">Edit</a></td>
+										        <td><a href="#editLNModal" id="edit-ln">Edit</a></td>
 										    </tr>
 										    <tr>
 										        <td>Email</td>
 										        <td>john.doe@gmail.com</td>
-										        <td><a href="">Edit</a></td>
+										        <td><a href="#editGaymailModal" id="edit-gaymail">Edit</a></td>
 										    </tr>
 										    <tr>
 										    	<td>Password</td>
 										    	<td>*********</td>
-										    	<td><a href="" style="color: red">Edit</a></td>
+										    	<td><a href="#editPassModal" style="color: red" id="edit-pass">Edit</a></td>
 										    </tr>
 									    </tbody>
 								    </table>
+								</div>
+
+								<div id="editFNModal" class="modalDialog">
+								    <div>	
+								    	<a href="#close" title="Close" class="close"><i class="material-icons">close</i></a>
+								        <h2>Change First Name</h2>
+
+										<hr>
+
+										<form>
+											<div class="form-group">
+												<label for="dev-name">First Name</label>
+												<input type="text" id="dev-name" class="form-control" />
+								        	</div>
+								        	<div class="btn-holder">
+								        		<a href="#close" class="btn btn-secondary">Cancel</a>
+								        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
+								        	</div>
+								        </form>
+								    </div>
+								</div>
+								<div id="editLNModal" class="modalDialog">
+								    <div>	
+								    	<a href="#close" title="Close" class="close"><i class="material-icons">close</i></a>
+								        <h2>Change Last Name</h2>
+
+										<hr>
+
+										<form>
+											<div class="form-group">
+												<label for="dev-name">Last Name</label>
+												<input type="text" id="dev-name" class="form-control" />
+								        	</div>
+								        	<div class="btn-holder">
+								        		<a href="#close" class="btn btn-secondary">Cancel</a>
+								        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
+								        	</div>
+								        </form>
+								    </div>
+								</div>
+								<div id="editGaymailModal" class="modalDialog">
+								    <div>	
+								    	<a href="#close" title="Close" class="close"><i class="material-icons">close</i></a>
+								        <h2>Change Email</h2>
+
+										<hr>
+
+										<form>
+											<div class="form-group">
+												<label for="dev-name">New Email</label>
+												<input type="text" id="dev-name" class="form-control" />
+								        	</div>
+								        	<div class="btn-holder">
+								        		<a href="#close" class="btn btn-secondary">Cancel</a>
+								        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
+								        	</div>
+								        </form>
+								    </div>
+								</div>
+								<div id="editPassModal" class="modalDialog">
+								    <div>	
+								    	<a href="#close" title="Close" class="close"><i class="material-icons">close</i></a>
+								        <h2>Change Password</h2>
+
+										<hr>
+
+										<form>
+											<div class="form-group">
+												<label for="dev-name">New Password</label>
+												<input type="Password" id="dev-name" class="form-control" />
+								        	</div>
+								        	<div class="btn-holder">
+								        		<a href="#close" class="btn btn-secondary">Cancel</a>
+								        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
+								        	</div>
+								        </form>
+								    </div>
 								</div>
 							</div>
 						</div>
