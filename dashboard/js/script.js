@@ -1,31 +1,49 @@
-$('#dash').click(function(e) {
-	console.log('PLS 1');
+$('#dash').click(function() {
 	$('#julia-chatbot').css('display', 'none');
 	$('#important-devices').css('display', 'none');
 	$('#dashboard').css('display', 'block');
 	$('#settings').css('display', 'none');
+	$('#community').css('display', 'none');
+
+	$('#fab-btn').css('display', 'none');
 });
 
 $('#julia').click(function() {
-	console.log('PLS 2');
 	$('#dashboard').css('display', 'none');
 	$('#important-devices').css('display', 'none');
 	$('#julia-chatbot').css('display', 'block');
 	$('#settings').css('display', 'none');
+	$('#community').css('display', 'none');
+
+	$('#fab-btn').css('display', 'none');
 });
 
 $('#devices').click(function() {
-	console.log('PLS 3');
 	$('#julia-chatbot').css('display', 'none');
 	$('#dashboard').css('display', 'none');
 	$('#important-devices').css('display', 'block');
 	$('#settings').css('display', 'none');
+	$('#community').css('display', 'none');
+
+	$('#fab-btn').css('display', 'block');
+});
+
+$('#comm').click(function() {
+	$('#julia-chatbot').css('display', 'none');
+	$('#dashboard').css('display', 'none');
+	$('#important-devices').css('display', 'none');
+	$('#settings').css('display', 'none');
+	$('#community').css('display', 'block');
+
+	$('#fab-btn').css('display', 'block');
 });
 
 $('#setting').click(function() {
-	console.log('PLS 4');
 	$('#dashboard').css('display', 'none');
 	$('#important-devices').css('display', 'none');
 	$('#settings').css('display', 'block');
 	$('#julia-chatbot').css('display', 'none');
+	$('#community').css('display', 'none');
+
+	$('#fab-btn').css('display', 'none');
 });
