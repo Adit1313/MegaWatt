@@ -1,17 +1,13 @@
-$('#submit-btn').click(function() {
-	console.log('Yo');
-
-	$('#login-form').submit(function(e) {
-		alert('Prevented submit');
-		return false;
-	});
-
+$('#submit-btn').click(function(e) {
+	
 	var user = 'john.doe@gmail.com'
 	var pass = 'Tsrs@1234';
 
 	if ($('#pass').val() == pass && $('#gaymail').val() == user) {
-		window.open('dashboard/index.html');
+		
 	} else {
+		e.preventDefault();
 		$('.error').css('display', 'block');
 	}
+
 });
