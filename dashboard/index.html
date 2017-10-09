@@ -149,22 +149,22 @@
 									    <tbody>
 										    <tr>
 										        <td>First Name</td>
-										        <td>John</td>
+										        <td id="fnChangeable">John</td>
 										        <td><a href="#editFNModal" id="edit-fn">Edit</a></td>
 										    </tr>
 										    <tr>
 										        <td>Last Name</td>
-										        <td>Doe</td>
+										        <td id="lnChangeable">Doe</td>
 										        <td><a href="#editLNModal" id="edit-ln">Edit</a></td>
 										    </tr>
 										    <tr>
 										        <td>Email</td>
-										        <td>john.doe@gmail.com</td>
+										        <td id="gaymailChangeable">john.doe@gmail.com</td>
 										        <td><a href="#editGaymailModal" id="edit-gaymail">Edit</a></td>
 										    </tr>
 										    <tr>
 										    	<td>Password</td>
-										    	<td>*********</td>
+										    	<td id="passChangeable">*********</td>
 										    	<td><a href="#editPassModal" style="color: red" id="edit-pass">Edit</a></td>
 										    </tr>
 									    </tbody>
@@ -181,11 +181,11 @@
 										<form>
 											<div class="form-group">
 												<label for="dev-name">First Name</label>
-												<input type="text" id="dev-name" class="form-control" />
+												<input type="text" id="fn" class="form-control" />
 								        	</div>
 								        	<div class="btn-holder">
 								        		<a href="#close" class="btn btn-secondary">Cancel</a>
-								        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
+								        		<a href="#close" class="btn btn-primary" id="fnChange">Submit</a>
 								        	</div>
 								        </form>
 								    </div>
@@ -200,11 +200,11 @@
 										<form>
 											<div class="form-group">
 												<label for="dev-name">Last Name</label>
-												<input type="text" id="dev-name" class="form-control" />
+												<input type="text" id="ln" class="form-control" />
 								        	</div>
 								        	<div class="btn-holder">
 								        		<a href="#close" class="btn btn-secondary">Cancel</a>
-								        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
+								        		<a href="#close" class="btn btn-primary" id="lnChange">Submit</a>
 								        	</div>
 								        </form>
 								    </div>
@@ -219,11 +219,11 @@
 										<form>
 											<div class="form-group">
 												<label for="dev-name">New Email</label>
-												<input type="text" id="dev-name" class="form-control" />
+												<input type="text" id="gaymail" class="form-control" />
 								        	</div>
 								        	<div class="btn-holder">
 								        		<a href="#close" class="btn btn-secondary">Cancel</a>
-								        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
+								        		<a href="#close" class="btn btn-primary" id="gaymailChange">Submit</a>
 								        	</div>
 								        </form>
 								    </div>
@@ -238,11 +238,11 @@
 										<form>
 											<div class="form-group">
 												<label for="dev-name">New Password</label>
-												<input type="Password" id="dev-name" class="form-control" />
+												<input type="Password" id="pass" class="form-control" />
 								        	</div>
 								        	<div class="btn-holder">
 								        		<a href="#close" class="btn btn-secondary">Cancel</a>
-								        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
+								        		<a href="#close" class="btn btn-primary" id="passChange">Submit</a>
 								        	</div>
 								        </form>
 								    </div>

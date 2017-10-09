@@ -50,3 +50,25 @@ $('#add-dev').click(function() {
 	entry.append(document.createTextNode(name + " - " +  brand));
 	list.append(entry);
 });
+
+$('#fnChange').click(function() {
+	$('#fnChangeable').text($('#fn').val());
+});
+
+$('#lnChange').click(function() {
+	$('#lnChangeable').text($('#ln').val());
+});
+
+$('#gaymailChange').click(function() {
+	$('#gaymailChangeable').text($('#gaymail').val());
+});
+
+$('#passChange').click(function() {
+	var finalPass = "";
+
+	for (i = 0; i < $('#pass').val().length; i++) {
+		finalPass += '*';
+	}
+
+	$('#passChangeable').text(finalPass);
+});
