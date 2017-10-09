@@ -10,7 +10,7 @@ $('#submit-btn').click(function() {
 	var pass = 'Tsrs@1234';
 
 	if ($('#pass').val() == pass && $('#gaymail').val() == user) {
-		window.open('main.html');
+		window.open('dashboard/index.html');
 	} else {
 		$('.error').css('display', 'block');
 	}
