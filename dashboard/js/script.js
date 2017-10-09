@@ -47,6 +47,6 @@ $('#add-dev').click(function() {
 	var entry = document.createElement('li');
 	entry.className = "list-group-item";
 
-	entry.append(document.createTextNode(name + brand));
+	entry.append(document.createTextNode(name + " - " +  brand));
 	list.append(entry);
 });

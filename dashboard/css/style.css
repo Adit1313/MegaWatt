@@ -5,7 +5,7 @@
 
 .side-links {
 	list-style-type: none;
-	padding-left: 2.3rem;
+	padding-left: 2.1rem;
 }
 
 .side-link {
@@ -122,4 +122,15 @@ iframe {
 
 .btn-holder {
 	text-align: center;
+}
+
+.dev-adder {
+	margin-top: 2%;
+}
+
+.summary-card {
+	margin-top: 18%;
+	margin-left: 18%;
+	background-color: #3A7BDF;
+	height: 60vh;
 }
