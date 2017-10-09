@@ -11,11 +11,51 @@
 .side-link {
 	color: white;
 	font-size: 1.3rem;
-	padding-bottom: 1.5%;
+}
+
+.side-link:hover {
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px solid white;
 }
 
 #logo {
 	height: 3rem;
 	margin-left: 2.9rem;
 	margin-top: 1rem;
+}
+
+.side-link-holder {
+	margin-bottom: 3%;
+}
+
+#important-devices {
+	display: none;
+}
+
+#julia-chatbot {
+	display: none;
+}
+
+#settings {
+	display: none;
+}
+
+.card {
+	background-color: #00D4FF;
+	color: white;
+	width: 15rem;
+	height: 10rem;
+}
+
+.saving-card {
+	margin-top: 17%;
+}
+
+.power-card {
+	margin-top: 25%;
+}
+
+iframe {
+	margin-top: 3%;
 }
