@@ -4,8 +4,6 @@ $('#dash').click(function() {
 	$('#dashboard').css('display', 'block');
 	$('#settings').css('display', 'none');
 	$('#community').css('display', 'none');
-
-	$('#fab-btn').css('display', 'none');
 });
 
 $('#julia').click(function() {
@@ -14,8 +12,6 @@ $('#julia').click(function() {
 	$('#julia-chatbot').css('display', 'block');
 	$('#settings').css('display', 'none');
 	$('#community').css('display', 'none');
-
-	$('#fab-btn').css('display', 'none');
 });
 
 $('#devices').click(function() {
@@ -24,8 +20,6 @@ $('#devices').click(function() {
 	$('#important-devices').css('display', 'block');
 	$('#settings').css('display', 'none');
 	$('#community').css('display', 'none');
-
-	$('#fab-btn').css('display', 'block');
 });
 
 $('#comm').click(function() {
@@ -34,8 +28,6 @@ $('#comm').click(function() {
 	$('#important-devices').css('display', 'none');
 	$('#settings').css('display', 'none');
 	$('#community').css('display', 'block');
-
-	$('#fab-btn').css('display', 'block');
 });
 
 $('#setting').click(function() {
@@ -44,6 +36,4 @@ $('#setting').click(function() {
 	$('#settings').css('display', 'block');
 	$('#julia-chatbot').css('display', 'none');
 	$('#community').css('display', 'none');
-
-	$('#fab-btn').css('display', 'none');
 });

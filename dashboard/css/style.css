@@ -5,7 +5,7 @@
 
 .side-links {
 	list-style-type: none;
-	padding-left: 2.5rem;
+	padding-left: 2.3rem;
 }
 
 .side-link {
@@ -58,4 +58,8 @@
 
 iframe {
 	margin-top: 3%;
+}
+
+.device-holder {
+	margin-top: 6%;
 }
