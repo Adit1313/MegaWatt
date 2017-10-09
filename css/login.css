@@ -1,0 +1,24 @@
+.form-container {
+	padding-top: 9%;
+	margin: auto;
+}
+
+#shade {
+	border: 1px solid #BDBDBD;
+	border-radius: 5px;
+	background-color: #EEEEEE;
+	padding: 5%;
+}
+
+#login-header {
+	text-align: center;
+	font-size: 2rem;
+}
+
+#btn-holder {
+	text-align: center;
+}
+
+.error {
+	display: none;
+}

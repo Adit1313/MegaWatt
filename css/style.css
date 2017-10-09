@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+#intro {
+	height: 92vh;
+	background-color: #CFD8DC;
+}
+
+.bright-btn {
+	background-color: #1DE9b6;
+	color: #000000;
+}
+
+.bright-btn:hover {
+	background-color: #00BFA5;
+}
+
+#brand-logo {
+	height: 2rem;
+}
+
+.navbar {
+	background-image: linear-gradient(to right, #3A7BDF 0%, #00D4FF 100%);
+}
+
+#header-text {
+	font-family: 'Righteous';
+	font-size: 4rem;
+	border-bottom: 1px solid black;
+	text-align: center;
+	margin: auto;
+}
+
+.header {
+	text-align: center;
+	padding-top: 12%;
+}
+
+.nav-link {
+	color: black;
+}
+
+.nav-link:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.arrow {
+	text-align: center;
+	margin-top: 20%;
+}
