@@ -12,6 +12,6 @@ $('#submit-btn').click(function() {
 	if ($('#pass').val() == pass && $('#gaymail').val() == user) {
 		window.open('main.html');
 	} else {
-		console.log('Lol fail');
+		$('.error').css('display', 'block');
 	}
 });
