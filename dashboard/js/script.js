@@ -38,17 +38,13 @@ $('#setting').click(function() {
 	$('#community').css('display', 'none');
 });
 
-var list = $('#device-list');
-
 $('#add-dev').click(function() {
 	var name = $('#dev-name').val();
 	var brand = $('#brand').val();
+	var room = $('#room').val();
 
-	var entry = document.createElement('li');
-	entry.className = "list-group-item";
-
-	entry.append(document.createTextNode(name + " - " +  brand));
-	list.append(entry);
+	var markup = "<tr><td>" + name + "</td><td>" + brand + "</td><td>" + room + "</td></tr>";
+	$('#device-list').append(markup);
 });
 
 $('#fnChange').click(function() {

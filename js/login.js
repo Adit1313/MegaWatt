@@ -4,8 +4,10 @@ $('#submit-btn').click(function(e) {
 	var pass = $('#pass').val();
 
 	try {
-		if (localStorage.getItem(user) == pass) {
+		var userDetails = localStorage.getItem(user).parse();
 
+		if (userDetails.pass == pass) {
+			localStorage.setItem('currentUser', user);
 		} else {
 			e.preventDefault();
 			$('.error').css('display', 'block');

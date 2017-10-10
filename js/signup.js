@@ -1,6 +1,9 @@
 $('#submit-btn').click(function(e) {
 	var gaymail = $('#gaymail').val();
 	var pass = $('#pass').val();
+
+	
+	
 	var conPass = $('#con-pass').val();
 	var errors = false;
 
@@ -11,7 +14,7 @@ $('#submit-btn').click(function(e) {
 	}
 
 	if (!errors) {
-		localStorage.setItem(gaymail, pass);
-	$('#success').css('display', 'block');
+		localStorage.setItem(gaymail, '"pass: ' + pass + ', devices: {} details: {}');
+		$('#success').css('display', 'block');
 	}
 });

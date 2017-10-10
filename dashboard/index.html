@@ -74,7 +74,7 @@
 											<div class="card-body">
 												<h2 class="card-title" style="text-decoration: underline;">Summary</h2>
 												<p class="card-text">
-													<ol>
+													<ol id="get-devices">
 														<li>Devices - </li>
 														<li>asdlnc</li>
 														<li></li>
@@ -95,16 +95,23 @@
 						<div class="container">
 							<div class="device-holder">
 								<h2>Devices:</h2>
-								<small>Devices which have been linked to xyz</small>
-								<ul class="list-group" id="device-list">
-									<li class="list-group-item">AC - Brand 1</li>
-									<li class="list-group-item">AC - Brand 2</li>
-									<li class="list-group-item">Light - Brand A</li>
-								</ul>
+								<table class="table">
+									<thead>
+										<tr>
+											<th>Device Name</th>
+											<th>Brand</th>
+											<th>Room / Location</th>
+										</tr>
+									</thead>
+									<tbody id="device-list">
+										
+									</tbody>
+								</table>
 								<div class="text-center dev-adder">
 									<a href="#openModal" class="btn btn-primary">Add Device</a>
 								</div>
 							</div>
+
 							<div id="openModal" class="modalDialog">
 							    <div>	
 							    	<a href="#close" title="Close" class="close"><i class="material-icons">close</i></a>
@@ -121,6 +128,10 @@
 											<label for="brand">Brand</label>
 											<input type="text" id="brand" class="form-control" />
 							        	</div>
+							        	<div class="form-group">
+											<label for="room">Room</label>
+											<input type="text" id="room" class="form-control" />
+							        	</div>
 							        	<div class="btn-holder">
 							        		<a href="#close" class="btn btn-secondary">Cancel</a>
 							        		<a href="#close" class="btn btn-primary" id="add-dev">Submit</a>
@@ -131,10 +142,6 @@
 						</div>
 					</div>
 
-					<div id="community">
-						
-					</div>
-
 					<div id="julia-chatbot">
 						<iframe width="1100" height="600" src="https://console.api.ai/api-client/demo/embedded/c5fbd7df-41ac-4507-8c0f-0e80191b8e47"></iframe>
 					</div>
@@ -142,7 +149,7 @@
 					<div id="settings">
 						<div class="container">
 							<div class="prof-settings">
-								<h3>Profile Settings</h3>
+								<h2>Profile Settings</h2>
 
 								<div class="container">          
 									<table class="table table-hover">
