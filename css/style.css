@@ -52,3 +52,14 @@
 .about {
 	height: 80vh;
 }
+
+.features {
+	background-color: #EEEEEE;
+	height: 30vh;
+}
+
+.card {
+	height: 10rem;
+	margin-top: 3%;
+	background-color: #BD0000;
+}
