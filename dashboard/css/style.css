@@ -48,12 +48,15 @@
 	height: 10rem;
 }
 
-.saving-card {
-	margin-top: 18%;
+.briefcase {
+    margin-top: 22%;
+    margin-left: 2%;
+    border-radius: 20px;
 }
 
-.power-card {
-	margin-top: 34%;
+.row-saxy {
+    background-color: #00D4FF;
+    margin-right: 10%;
 }
 
 iframe {

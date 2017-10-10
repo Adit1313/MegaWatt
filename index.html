@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +13,6 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="shortcut icon" href="res/favicon.png">
     </head>
-
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#"><img src="res/MW Logo.png" id="brand-logo"></a>
@@ -32,17 +30,14 @@
                 </ul>
             </div>
             <div class="btn-group">
-            	<a href="signup.html" class="btn btn-dark">Sign Up</a>
-            	<a href="login.html" class="btn btn-dark">Login</a>
+                <a href="signup.html" class="btn btn-dark">Sign Up</a>
+                <a href="login.html" class="btn btn-dark">Login</a>
             </div>
         </nav>
         <div id="intro">
             <div class="container" id="particles">
                 <div class="header">
                     <span id="header-text">MegaWatt</span>
-                    <div>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </div>
                 </div>
                 <div class="arrow">
                     <div class="bounce">
@@ -57,11 +52,9 @@
         <div id="about">
             <div class="container">
                 <h2 class="text-center about-title"><span style="border-bottom: 1px solid black;">About <span class="right">MegaWatt</span></span></h2>
-
                 <div class="text-center about-text container">
                     <p>Megawatt is committed to changing the way all devices in our homes interact. We aim to create a cohesive network of IoT and non-IoT devices that work together to improve the allocative efficiency of energy resources in home systems. We do this by providing the user with tips, automated functions and other such operations. Users can access our app by using our mobile MegaWatt app, our web app, and by using our chatbot, Julia, which is built into the previously mentioned apps.</p>
                 </div>
-
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-1"></div>
@@ -95,7 +88,6 @@
                 </div>
             </div>
         </div>
-
         <div id="features">
             <h2 class="text-center feat-title">Features</h2>
             <div class="container">
@@ -110,7 +102,6 @@
                                 <div>
                                     <div class="text-center">
                                         <i class="material-icons">attach_money</i> <i class="material-icons">add</i> <i class="material-icons">language</i> = <i class="material-icons">favorite</i> <br>
-
                                         MegaWatt not only saves your money but also helps in saving the planet!
                                     </div>
                                 </div>
@@ -168,42 +159,36 @@
                 </div>
             </div>
         </div>
-
         <div id="purchase">
-            <h2 class="text-center">Buy Now</h2>
-            <div class="container">
-                <p></p>
+            <h2 class="text-center purchase-title">Buy Now</h2>
+            <div class="container text-center">
+                <p>
+                    MegaWatt is available on two platforms - iOS and Web.
+
+                    It can be downloaded directly from the App Store or one can Sign Up <a href="signup.html">here</a> or Login <a href="login.html">here</a>.
+                </p>
             </div>
         </div>
 
+        <div id="footer">
+            <footer>
+                @MegaWatt
+            </footer>
+        </div>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script>
             $(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
+                $("a").on('click', function(event) {
+                    if (this.hash !== "") {
+                        event.preventDefault();
+                        var hash = this.hash;
+                        $('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){
+                            window.location.hash = hash;
+                        });
+                    }
+                });
+            });
         </script>
     </body>
-
 </html>

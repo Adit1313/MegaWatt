@@ -88,3 +88,20 @@ span.right {
 .sell-cards {
 	background-image: linear-gradient(to right, #3A7BDF 0%, #00D4FF 100%);
 }
+
+.purchase-title {
+	padding-top: 3%;
+	padding-bottom: 1%;
+	font-size: 3rem;
+}
+
+#footer {
+	background-image: linear-gradient(to right, #3A7BDF 0%, #00D4FF 100%);
+}
+
+footer {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	color: white;
+}
