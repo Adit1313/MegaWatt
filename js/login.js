@@ -1,13 +1,19 @@
 $('#submit-btn').click(function(e) {
 	
-	var user = 'john.doe@gmail.com'
-	var pass = 'Tsrs@1234';
+	var user = $('#gaymail').val();
+	var pass = $('#pass').val();
 
-	if ($('#pass').val() == pass && $('#gaymail').val() == user) {
+	try {
+		if (localStorage.getItem(user) == pass) {
+
+		} else {
+			e.preventDefault();
+			$('.error').css('display', 'block');
+			$('#gaymail').text('');
+			$('#pass').text('');
+		}
+	} catch(err) {
 		
-	} else {
-		e.preventDefault();
-		$('.error').css('display', 'block');
 	}
 
 });
